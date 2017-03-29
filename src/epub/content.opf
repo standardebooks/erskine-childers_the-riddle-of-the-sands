@@ -19,6 +19,15 @@
 		<link href="onix.xml" rel="onix-record"/>
 		<dc:title id="title">The Riddle of the Sands</dc:title>
 		<meta property="file-as" refines="#title">Riddle of the Sands, The</meta>
+		<dc:title id="title">The Riddle of the Sands</dc:title>
+		<meta property="file-as" refines="#title">Riddle of the Sands, The</meta>
+		<meta property="title-type" refines="#title">main</meta>
+		<dc:title id="subtitle">A Record of Secret Service</dc:title>
+		<meta property="file-as" refines="#subtitle">Record of Secret Service, A</meta>
+		<meta property="title-type" refines="#subtitle">subtitle</meta>
+		<dc:title id="fulltitle">The Riddle of the Sands: A Record of Secret Service</dc:title>
+		<meta property="file-as" refines="#fulltitle">Man Who Was Thursday, The</meta>
+		<meta property="title-type" refines="#fulltitle">extended</meta>
 		<dc:subject id="subject-1">Sea stories</dc:subject>
 		<dc:subject id="subject-2">Great Britain -- History -- Invasions -- Fiction</dc:subject>
 		<dc:subject id="subject-3">Adventure stories</dc:subject>
