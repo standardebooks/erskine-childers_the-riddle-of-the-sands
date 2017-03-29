@@ -19,8 +19,6 @@
 		<link href="onix.xml" rel="onix-record"/>
 		<dc:title id="title">The Riddle of the Sands</dc:title>
 		<meta property="file-as" refines="#title">Riddle of the Sands, The</meta>
-		<dc:title id="title">The Riddle of the Sands</dc:title>
-		<meta property="file-as" refines="#title">Riddle of the Sands, The</meta>
 		<meta property="title-type" refines="#title">main</meta>
 		<dc:title id="subtitle">A Record of Secret Service</dc:title>
 		<meta property="file-as" refines="#subtitle">Record of Secret Service, A</meta>
@@ -54,8 +52,8 @@
 		<dc:language>en-GB</dc:language>
 		<dc:source>https://www.gutenberg.org/ebooks/2360</dc:source>
 		<dc:source>https://books.google.com/books?id=p441AAAAMAAJ</dc:source>
-		<meta property="se:word-count">110459</meta>
-		<meta property="se:reading-ease.flesch">70.53</meta>
+		<meta property="se:word-count">110338</meta>
+		<meta property="se:reading-ease.flesch">70.63</meta>
 		<meta property="se:url.encyclopedia.wikipedia">https://en.wikipedia.org/wiki/The_Riddle_of_the_Sands</meta>
 		<meta property="se:url.vcs.github">https://github.com/standardebooks/erskine-childers_the-riddle-of-the-sands</meta>
 		<dc:creator id="author">Erskine Childers</dc:creator>
@@ -65,6 +63,8 @@
 		<meta property="se:url.authority.nacoaf" refines="#author">http://id.loc.gov/authorities/names/n50037988</meta>
 		<meta property="role" refines="#author" scheme="marc:relators">aut</meta>
 		<meta property="role" refines="#author" scheme="marc:relators">wpr</meta>
+		<meta property="role" refines="#author" scheme="marc:relators">ill</meta>
+		<meta property="role" refines="#author" scheme="marc:relators">ann</meta>
 		<dc:contributor id="artist">Claude Monet</dc:contributor>
 		<meta property="file-as" refines="#artist">Monet, Claude</meta>
 		<meta property="se:name.person.full-name" refines="#artist">Oscar-Claude Monet</meta>
@@ -88,8 +88,13 @@
 		<item href="toc.xhtml" id="toc.xhtml" media-type="application/xhtml+xml" properties="nav"/>
 		<item href="css/core.css" id="core.css" media-type="text/css"/>
 		<item href="css/local.css" id="local.css" media-type="text/css"/>
+		<item href="images/chart-a.png" id="chart-a.png" media-type="image/png"/>
+		<item href="images/chart-b.png" id="chart-b.png" media-type="image/png"/>
 		<item href="images/cover.svg" id="cover.svg" media-type="image/svg+xml" properties="cover-image"/>
 		<item href="images/logo.svg" id="logo.svg" media-type="image/svg+xml"/>
+		<item href="images/map-a.png" id="map-a.png" media-type="image/png"/>
+		<item href="images/map-b.png" id="map-b.png" media-type="image/png"/>
+		<item href="images/sketch.png" id="sketch.png" media-type="image/png"/>
 		<item href="images/titlepage.svg" id="titlepage.svg" media-type="image/svg+xml"/>
 		<item href="text/chapter-1.xhtml" id="chapter-1.xhtml" media-type="application/xhtml+xml"/>
 		<item href="text/chapter-2.xhtml" id="chapter-2.xhtml" media-type="application/xhtml+xml"/>
@@ -120,9 +125,11 @@
 		<item href="text/chapter-27.xhtml" id="chapter-27.xhtml" media-type="application/xhtml+xml"/>
 		<item href="text/chapter-28.xhtml" id="chapter-28.xhtml" media-type="application/xhtml+xml"/>
 		<item href="text/colophon.xhtml" id="colophon.xhtml" media-type="application/xhtml+xml" properties="svg"/>
+		<item href="text/endnotes.xhtml" id="endnotes.xhtml" media-type="application/xhtml+xml"/>
 		<item href="text/epilogue.xhtml" id="epilogue.xhtml" media-type="application/xhtml+xml"/>
 		<item href="text/halftitle.xhtml" id="halftitle.xhtml" media-type="application/xhtml+xml"/>
 		<item href="text/imprint.xhtml" id="imprint.xhtml" media-type="application/xhtml+xml"/>
+		<item href="text/loi.xhtml" id="loi.xhtml" media-type="application/xhtml+xml"/>
 		<item href="text/note.xhtml" id="note.xhtml" media-type="application/xhtml+xml"/>
 		<item href="text/preface.xhtml" id="preface.xhtml" media-type="application/xhtml+xml"/>
 		<item href="text/titlepage.xhtml" id="titlepage.xhtml" media-type="application/xhtml+xml" properties="svg"/>
@@ -163,6 +170,8 @@
 		<itemref idref="chapter-27.xhtml"/>
 		<itemref idref="chapter-28.xhtml"/>
 		<itemref idref="epilogue.xhtml"/>
+		<itemref idref="endnotes.xhtml"/>
+		<itemref idref="loi.xhtml"/>
 		<itemref idref="colophon.xhtml"/>
 		<itemref idref="uncopyright.xhtml"/>
 	</spine>
