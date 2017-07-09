@@ -49,7 +49,7 @@ figure{
 	page-break-before: always;
 	page-break-after: always;
 	page-break-inside: avoid;
-	margin: 1em;
+	margin: 0;
 	max-height: 100%;
 	text-align: center;
 }
@@ -58,4 +58,8 @@ figure img{
 	max-width: 100%;
 	margin: auto;
 	display: block;
+}
+
+figure + p{
+	text-indent: 0;
 }
