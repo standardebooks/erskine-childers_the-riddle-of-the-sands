@@ -26,7 +26,7 @@
 		<meta property="schema:accessibilityFeature">tableOfContents</meta>
 		<meta property="schema:accessibilityHazard">none</meta>
 		<meta property="schema:accessibilitySummary">This publication conforms to WCAG 2.0 Level AA.</meta>
-		<link href="onix.xml" rel="onix-record"/>
+		<link href="onix.xml" media-type="application/xml" properties="onix" rel="record"/>
 		<dc:title id="title">The Riddle of the Sands</dc:title>
 		<meta property="file-as" refines="#title">Riddle of the Sands, The</meta>
 		<meta property="title-type" refines="#title">main</meta>
@@ -44,23 +44,29 @@
 		<dc:subject id="subject-6">Frisian Islands -- Fiction</dc:subject>
 		<dc:subject id="subject-7">Secret service -- Fiction</dc:subject>
 		<dc:subject id="subject-8">Alternative histories (Fiction)</dc:subject>
-		<meta property="meta-auth" refines="#subject-1">https://www.gutenberg.org/ebooks/2360</meta>
-		<meta property="meta-auth" refines="#subject-2">https://www.gutenberg.org/ebooks/2360</meta>
-		<meta property="meta-auth" refines="#subject-3">https://www.gutenberg.org/ebooks/2360</meta>
-		<meta property="meta-auth" refines="#subject-4">https://www.gutenberg.org/ebooks/2360</meta>
-		<meta property="meta-auth" refines="#subject-5">https://www.gutenberg.org/ebooks/2360</meta>
-		<meta property="meta-auth" refines="#subject-6">https://www.gutenberg.org/ebooks/2360</meta>
-		<meta property="meta-auth" refines="#subject-7">https://www.gutenberg.org/ebooks/2360</meta>
-		<meta property="meta-auth" refines="#subject-8">https://www.gutenberg.org/ebooks/2360</meta>
+		<meta property="authority" refines="#subject-1">LCSH</meta>
+		<meta property="term" refines="#subject-1">sh85119251</meta>
+		<meta property="authority" refines="#subject-2">LCSH</meta>
+		<meta property="term" refines="#subject-2">Unknown</meta>
+		<meta property="authority" refines="#subject-3">LCSH</meta>
+		<meta property="term" refines="#subject-3">sh85001072</meta>
+		<meta property="authority" refines="#subject-4">LCSH</meta>
+		<meta property="term" refines="#subject-4">sh85127066</meta>
+		<meta property="authority" refines="#subject-5">LCSH</meta>
+		<meta property="term" refines="#subject-5">sh2008111430</meta>
+		<meta property="authority" refines="#subject-6">LCSH</meta>
+		<meta property="term" refines="#subject-6">Unknown</meta>
+		<meta property="authority" refines="#subject-7">LCSH</meta>
+		<meta property="term" refines="#subject-7">sh2008111429</meta>
+		<meta property="authority" refines="#subject-8">LCSH</meta>
+		<meta property="term" refines="#subject-8">sh2005000827</meta>
 		<meta property="se:subject">Fiction</meta>
 		<dc:description id="description">Two English friends go on a sailing trip that quickly turns thrilling as they stumble upon a sinister German plot.</dc:description>
-		<meta property="meta-auth" refines="#description">https://standardebooks.org</meta>
 		<meta id="long-description" property="se:long-description" refines="#description">
 			&lt;p&gt;&lt;i&gt;The Riddle of the Sands&lt;/i&gt; is one of the earliest examples of the spy novel genre, and became hugely popular shortly after its publication. Childers carefully interweaves fiction with real-world places, events, and politics, making for an extremely convincing story of invasion—so convincing that some (perhaps erroneously) credit the novel with spurring the creation of new English naval bases. The framing device, where Childers pretends to be an editor presenting a factual account, only adds to the believability of the story.&lt;/p&gt;
 			&lt;p&gt;The novel begins with Carruthers, an official in the Foreign Office, accepting an invitation from his friend Davies for what he assumes is a pleasure trip on a sailboat in the Baltic sea. As the two embark on their journey, it quickly becomes apparent that not everything is at it seems on the German coast.&lt;/p&gt;
 			&lt;p&gt;&lt;i&gt;Riddle&lt;/i&gt; helped energize the spy novel genre, providing a template for countless authors to come, including Ian Fleming and John le Carré, and has been adapted numerous times for film, television and radio.&lt;/p&gt;
 		</meta>
-		<meta property="meta-auth" refines="#long-description">https://standardebooks.org</meta>
 		<dc:language>en-GB</dc:language>
 		<dc:source>https://www.gutenberg.org/ebooks/2360</dc:source>
 		<dc:source>https://books.google.com/books?id=p441AAAAMAAJ</dc:source>
