@@ -15,8 +15,8 @@
 }
 
 footer{
-	text-align: right;
 	margin-top: 1em;
+	text-align: right;
 }
 
 section[epub|type~="z3998:postscript"] header{
