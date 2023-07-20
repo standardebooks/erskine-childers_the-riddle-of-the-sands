@@ -62,6 +62,8 @@
 		<meta property="authority" refines="#subject-8">LCSH</meta>
 		<meta property="term" refines="#subject-8">sh2005000827</meta>
 		<meta property="se:subject">Fiction</meta>
+		<meta id="collection-1" property="belongs-to-collection">Haycraft Queen Cornerstones</meta>
+		<meta property="collection-type" refines="#collection-1">set</meta>
 		<dc:description id="description">Two English friends go on a sailing trip that quickly turns thrilling as they stumble upon a sinister German plot.</dc:description>
 		<meta id="long-description" property="se:long-description" refines="#description">
 			&lt;p&gt;&lt;i&gt;The Riddle of the Sands&lt;/i&gt; is one of the earliest examples of the spy novel genre, and became hugely popular shortly after its publication. &lt;a href="https://standardebooks.org/ebooks/erskine-childers"&gt;Childers&lt;/a&gt; carefully interweaves fiction with real-world places, events, and politics, making for an extremely convincing story of invasion—so convincing that some (perhaps erroneously) credit the novel with spurring the creation of new English naval bases. The framing device, where Childers pretends to be an editor presenting a factual account, only adds to the believability of the story.&lt;/p&gt;
