@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<package xmlns="http://www.idpf.org/2007/opf" dir="ltr" prefix="se: https://standardebooks.org/vocab/1.0 rdf: http://www.w3.org/1999/02/22-rdf-syntax-ns#" unique-identifier="uid" version="3.0" xml:lang="en-US">
+<package xmlns="http://www.idpf.org/2007/opf" dir="ltr" prefix="rdf: http://www.w3.org/1999/02/22-rdf-syntax-ns#" unique-identifier="uid" version="3.0" xml:lang="en-US">
 	<metadata xmlns:dc="http://purl.org/dc/elements/1.1/">
 		<dc:identifier id="uid">https://standardebooks.org/ebooks/erskine-childers/the-riddle-of-the-sands</dc:identifier>
 		<dc:date>2017-07-10T02:58:27Z</dc:date>
@@ -71,12 +71,12 @@
 		<meta id="collection-3" property="belongs-to-collection">The Guardian’s 100 Greatest Novels of All Time (2003)</meta>
 		<meta property="collection-type" refines="#collection-3">set</meta>
 		<meta property="group-position" refines="#collection-3">37</meta>
-		<dc:description id="description">Two English friends go on a sailing trip that quickly turns thrilling as they stumble upon a sinister German plot.</dc:description>
-		<meta id="long-description" property="se:long-description" refines="#description">
+		<dc:abstract>Two English friends go on a sailing trip that quickly turns thrilling as they stumble upon a sinister German plot.</dc:abstract>
+		<dc:description>
 			&lt;p&gt;&lt;i&gt;The Riddle of the Sands&lt;/i&gt; is one of the earliest examples of the spy novel genre, and became hugely popular shortly after its publication. &lt;a href="https://standardebooks.org/ebooks/erskine-childers"&gt;Childers&lt;/a&gt; carefully interweaves fiction with real-world places, events, and politics, making for an extremely convincing story of invasion—so convincing that some (perhaps erroneously) credit the novel with spurring the creation of new English naval bases. The framing device, where Childers pretends to be an editor presenting a factual account, only adds to the believability of the story.&lt;/p&gt;
 			&lt;p&gt;The novel begins with Carruthers, an official in the Foreign Office, accepting an invitation from his friend Davies for what he assumes is a pleasure trip on a sailboat in the Baltic sea. As the two embark on their journey, it quickly becomes apparent that not everything is at it seems on the German coast.&lt;/p&gt;
 			&lt;p&gt;&lt;i&gt;Riddle&lt;/i&gt; helped energize the spy novel genre, providing a template for countless authors to come, including Ian Fleming and John le Carré, and has been adapted numerous times for film, television and radio.&lt;/p&gt;
-		</meta>
+		</dc:description>
 		<dc:language>en-GB</dc:language>
 		<dc:source>https://www.gutenberg.org/ebooks/2360</dc:source>
 		<dc:source>https://books.google.com/books?id=p441AAAAMAAJ</dc:source>
