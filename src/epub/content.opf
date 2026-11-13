@@ -89,7 +89,7 @@
 		<dc:creator id="author">Erskine Childers</dc:creator>
 		<meta property="file-as" refines="#author">Childers, Erskine</meta>
 		<meta property="schema:alternateName" refines="#author">Robert Erskine Childers</meta>
-		<link href="https://en.wikipedia.org/wiki/Robert_Erskine_Childers" refines="#author" rel="schema:sameAs"/>
+		<link href="https://en.wikipedia.org/wiki/Erskine_Childers_(author)" refines="#author" rel="schema:sameAs"/>
 		<link href="https://id.loc.gov/authorities/names/n50037988.html" refines="#author" rel="schema:sameAs"/>
 		<meta property="role" refines="#author" scheme="marc:relators">ann</meta>
 		<meta property="role" refines="#author" scheme="marc:relators">aut</meta>
